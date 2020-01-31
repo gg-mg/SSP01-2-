@@ -1,32 +1,34 @@
 /*------------------------------------------------------------------
 [Table of contents]
-1. Body/main
-2. Header /h1
-3. Navigation /nav li, nav ul, nav ul li, nav ul li a, a:visited, a:hover
-4. Footer /footer
+Body
+    1.main
+    2. Header /h1
+    3. Navigation /nav li, nav ul, nav ul li, nav ul li a, a:visited, a:hover
+    4. Footer /footer
  
 COLORS
-1.Body: Background-color: 
-2.Main: 2.1 Background: #FFF (white)
-        2.2 Content: #000 (black)
-        2.3 Box-shadow: #008080(teal)
-3.Header:#008080(teal)
-4.Navigation: 3.1 nav ul li:Background-color: #008000(green)
+Body: Background-color: #f0f8ff
+    1.Main: 1.1 Background: #FFF (white)
+        1.2 Content: #000 (black)
+        1.3 Box-shadow: #008080(teal)
+    2.Header:#008080(teal)
+    3.Navigation: 3.1 nav ul li:Background-color: #008000(green)
               3.2 nav ul li a: (standard): #ffffff(white)
               3.3 a (visited): #40e0d0 (turquoise)
               3.4 a (hover): #FF0000 (red)
-5.Footer:#008080(teal)
+    4.Footer:#008080(teal)
 
 TYPOGRAPHY
-1. Body: Georgia, 'Times New Roman', Times, serif
-2. Headers: h1- 2.7em 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+Body
+    1. Main: Georgia, 'Times New Roman', Times, serif
+    2. Headers: h1- 2.7em 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             h2- 2.1em Georgia, 'Times New Roman', Times, serif
-3. Navigation Buttons: 1em Georgia, Times, sans-serif                    
-4. Footer: .65em  Georgia, 'Times New Roman', Times, serif
+    3. Navigation Buttons: 1em Georgia, Times, sans-serif                    
+    4. Footer: .65em  Georgia, 'Times New Roman', Times, serif
 
 Notes: decreasing heading by 0.6em with every subsequent heading level
 -------------------------------------------------------------------*/
-body{background-color: aliceblue;}
+body{background-color: #f0f8ff;}
 
 main {
     min-height: 430px;
